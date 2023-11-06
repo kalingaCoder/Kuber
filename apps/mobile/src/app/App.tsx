@@ -30,7 +30,7 @@ export const App = () => {
           <View style={styles.section}>
             <Text style={styles.textLg}>Hello there,</Text>
             <Text style={[styles.textXL, styles.appTitleText]} testID="heading">
-              Welcome Mobile 👋
+              Welcome Mobile.. 👋
             </Text>
           </View>
           <View style={styles.section}>
@@ -51,7 +51,7 @@ export const App = () => {
                   />
                 </Svg>
                 <Text style={[styles.textLg, styles.heroTitleText]}>
-                  You're up and running
+                  You're up and running..
                 </Text>
               </View>
               <TouchableOpacity
