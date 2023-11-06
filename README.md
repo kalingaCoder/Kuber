@@ -9,6 +9,14 @@
 
 To start the development server run `nx serve backend`. Open your browser and navigate to http://localhost:4200/. Happy coding!
 
+## start android app
+ you can start the development server for your React Native app using `npx react-native start`
+
+you can run your app on a specific platform (e.g., Android or iOS) using
+`npx react-native run-android` or `npx react-native run-ios`
+
+
+
 
 ## Generate code
 
