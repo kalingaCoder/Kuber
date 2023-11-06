@@ -1,0 +1,527 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.0.3",
+  "deps": {
+    "axios": "^1.0.0",
+    "express": "~4.18.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.72.4",
+    "tslib": "^2.3.0",
+    "@babel/core": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
+    "@nx/detox": "17.0.3",
+    "@nx/esbuild": "17.0.3",
+    "@nx/eslint": "17.0.3",
+    "@nx/eslint-plugin": "17.0.3",
+    "@nx/jest": "17.0.3",
+    "@nx/js": "17.0.3",
+    "@nx/node": "17.0.3",
+    "@nx/react-native": "^17.0.3",
+    "@nx/workspace": "17.0.3",
+    "@react-native-community/cli": "11.3.6",
+    "@react-native-community/cli-platform-android": "11.3.6",
+    "@react-native-community/cli-platform-ios": "11.3.6",
+    "@react-native/metro-config": "^0.72.11",
+    "@swc-node/register": "~1.6.7",
+    "@swc/core": "~1.3.85",
+    "@testing-library/jest-dom": "5.16.5",
+    "@testing-library/jest-native": "~5.4.3",
+    "@testing-library/react-native": "~12.3.0",
+    "@types/express": "~4.17.13",
+    "@types/jest": "^29.4.0",
+    "@types/node": "18.14.4",
+    "@types/react": "18.0.28",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "babel-jest": "^29.4.1",
+    "detox": "^20.11.1",
+    "esbuild": "^0.19.2",
+    "eslint": "~8.46.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "jest": "^29.4.1",
+    "jest-circus": "^29.4.1",
+    "jest-environment-jsdom": "^29.4.1",
+    "jest-environment-node": "^29.4.1",
+    "jest-react-native": "18.0.0",
+    "metro": "0.76.7",
+    "metro-babel-register": "0.76.7",
+    "metro-config": "0.76.7",
+    "metro-react-native-babel-preset": "0.76.7",
+    "metro-react-native-babel-transformer": "0.76.7",
+    "metro-resolver": "0.76.7",
+    "nx": "17.0.3",
+    "prettier": "^2.6.2",
+    "react-native-svg": "13.9.0",
+    "react-native-svg-transformer": "1.0.0",
+    "react-test-renderer": "18.2.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "~5.1.3"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "18315524891129148814"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "10005942538194883858"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "16448050467312557263"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "235626400633494639"
+      },
+      {
+        "file": "README.md",
+        "hash": "17557126699824387473"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "12333515226966617182"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "nx.json",
+        "hash": "17399526045604741708"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "5275670692993541927"
+      },
+      {
+        "file": "package.json",
+        "hash": "1359506517417141681"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      }
+    ],
+    "projectFileMap": {
+      "mobile": [
+        {
+          "file": "apps/mobile/.eslintrc.json",
+          "hash": "4314008619601461772"
+        },
+        {
+          "file": "apps/mobile/Gemfile",
+          "hash": "18401619577538077782"
+        },
+        {
+          "file": "apps/mobile/android/app/build.gradle",
+          "hash": "1261340569644244378"
+        },
+        {
+          "file": "apps/mobile/android/app/debug.keystore",
+          "hash": "5037686243849261810"
+        },
+        {
+          "file": "apps/mobile/android/app/proguard-rules.pro",
+          "hash": "13814197385154279786"
+        },
+        {
+          "file": "apps/mobile/android/app/src/androidTest/java/com/mobile/DetoxTest.java",
+          "hash": "5241316697566341974"
+        },
+        {
+          "file": "apps/mobile/android/app/src/debug/AndroidManifest.xml",
+          "hash": "16997767733914164177"
+        },
+        {
+          "file": "apps/mobile/android/app/src/debug/java/com/mobile/ReactNativeFlipper.java",
+          "hash": "12220484575499243488"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/AndroidManifest.xml",
+          "hash": "7079440948961830635"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/java/com/mobile/MainActivity.java",
+          "hash": "8880631535927907029"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/java/com/mobile/MainApplication.java",
+          "hash": "2493022152432374655"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/drawable/rn_edit_text_material.xml",
+          "hash": "617140720749664772"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+          "hash": "10788509195642110029"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png",
+          "hash": "14348562046770238248"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+          "hash": "328692529308011025"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png",
+          "hash": "11802043336826859502"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+          "hash": "13006206334539413900"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png",
+          "hash": "1812825738055967771"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+          "hash": "6104457872863500683"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png",
+          "hash": "2478168592410677995"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+          "hash": "12283149652938275290"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png",
+          "hash": "7126668675123994836"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/values/strings.xml",
+          "hash": "14432769972268793573"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/values/styles.xml",
+          "hash": "14052910750539201041"
+        },
+        {
+          "file": "apps/mobile/android/app/src/main/res/xml/network_security_config.xml",
+          "hash": "7470100900868657300"
+        },
+        {
+          "file": "apps/mobile/android/app/src/release/java/com/mobile/ReactNativeFlipper.java",
+          "hash": "3227920715916123729"
+        },
+        {
+          "file": "apps/mobile/android/build.gradle",
+          "hash": "15784805952569049714"
+        },
+        {
+          "file": "apps/mobile/android/gradle/wrapper/gradle-wrapper.jar",
+          "hash": "11064621541907778082"
+        },
+        {
+          "file": "apps/mobile/android/gradle/wrapper/gradle-wrapper.properties",
+          "hash": "2303248026073298933"
+        },
+        {
+          "file": "apps/mobile/android/gradle.properties",
+          "hash": "13135622246796849421"
+        },
+        {
+          "file": "apps/mobile/android/gradlew",
+          "hash": "10638153001440534383"
+        },
+        {
+          "file": "apps/mobile/android/gradlew.bat",
+          "hash": "18278234324834608139"
+        },
+        {
+          "file": "apps/mobile/android/settings.gradle",
+          "hash": "1549721997302284506"
+        },
+        {
+          "file": "apps/mobile/app.json",
+          "hash": "1390605817244549130"
+        },
+        {
+          "file": "apps/mobile/babel.config.json",
+          "hash": "13548039303182445957"
+        },
+        {
+          "file": "apps/mobile/ios/.xcode.env",
+          "hash": "12704946661619936455"
+        },
+        {
+          "file": "apps/mobile/ios/Mobile/AppDelegate.h",
+          "hash": "4105548683868581501"
+        },
+        {
+          "file": "apps/mobile/ios/Mobile/AppDelegate.mm",
+          "hash": "75872129842278284"
+        },
+        {
+          "file": "apps/mobile/ios/Mobile/Images.xcassets/AppIcon.appiconset/Contents.json",
+          "hash": "11595540762170193386"
+        },
+        {
+          "file": "apps/mobile/ios/Mobile/Images.xcassets/Contents.json",
+          "hash": "16272710630576636421"
+        },
+        {
+          "file": "apps/mobile/ios/Mobile/Info.plist",
+          "hash": "4109749974048619643"
+        },
+        {
+          "file": "apps/mobile/ios/Mobile/LaunchScreen.storyboard",
+          "hash": "2815857110774114531"
+        },
+        {
+          "file": "apps/mobile/ios/Mobile/main.m",
+          "hash": "3932908704591016568"
+        },
+        {
+          "file": "apps/mobile/ios/Mobile.xcodeproj/project.pbxproj",
+          "hash": "1130805988017193132"
+        },
+        {
+          "file": "apps/mobile/ios/Mobile.xcodeproj/xcshareddata/xcschemes/Mobile.xcscheme",
+          "hash": "2100166912833391617"
+        },
+        {
+          "file": "apps/mobile/ios/Mobile.xcworkspace/contents.xcworkspacedata",
+          "hash": "4443681364068720490"
+        },
+        {
+          "file": "apps/mobile/ios/MobileTests/Info.plist",
+          "hash": "490535150174461673"
+        },
+        {
+          "file": "apps/mobile/ios/MobileTests/MobileTests.m",
+          "hash": "12245161455903119469"
+        },
+        {
+          "file": "apps/mobile/ios/Podfile",
+          "hash": "11904967527166759249"
+        },
+        {
+          "file": "apps/mobile/jest.config.ts",
+          "hash": "1592529707652637303"
+        },
+        {
+          "file": "apps/mobile/metro.config.js",
+          "hash": "10388084039333331567",
+          "deps": [
+            "npm:@nx/react-native",
+            "npm:@react-native/metro-config",
+            "npm:metro-config",
+            "npm:react-native-svg-transformer"
+          ]
+        },
+        {
+          "file": "apps/mobile/package.json",
+          "hash": "9919680421411436247",
+          "deps": [
+            "npm:@react-native/metro-config",
+            "npm:@testing-library/jest-native",
+            "npm:@testing-library/react-native",
+            "npm:react",
+            "npm:react-native",
+            "npm:react-native-svg",
+            "npm:metro-config"
+          ]
+        },
+        {
+          "file": "apps/mobile/project.json",
+          "hash": "16445286266794265880"
+        },
+        {
+          "file": "apps/mobile/src/app/App.spec.tsx",
+          "hash": "3379911321437688186",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react-native"
+          ]
+        },
+        {
+          "file": "apps/mobile/src/app/App.tsx",
+          "hash": "14852569580047748400",
+          "deps": [
+            "npm:react",
+            "npm:react-native",
+            "npm:react-native-svg"
+          ]
+        },
+        {
+          "file": "apps/mobile/src/main.tsx",
+          "hash": "9434940819290177420",
+          "deps": [
+            "npm:react-native"
+          ]
+        },
+        {
+          "file": "apps/mobile/test-setup.ts",
+          "hash": "9919311210714806624",
+          "deps": [
+            "npm:@testing-library/jest-native"
+          ]
+        },
+        {
+          "file": "apps/mobile/tsconfig.app.json",
+          "hash": "3874957292705852786"
+        },
+        {
+          "file": "apps/mobile/tsconfig.json",
+          "hash": "3271334188009701059"
+        },
+        {
+          "file": "apps/mobile/tsconfig.spec.json",
+          "hash": "6514620907549802163"
+        }
+      ],
+      "mobile-e2e": [
+        {
+          "file": "apps/mobile-e2e/.babelrc",
+          "hash": "13020124393823981135"
+        },
+        {
+          "file": "apps/mobile-e2e/.detoxrc.json",
+          "hash": "15539822492763654356"
+        },
+        {
+          "file": "apps/mobile-e2e/.eslintrc.json",
+          "hash": "11012487992710232822"
+        },
+        {
+          "file": "apps/mobile-e2e/jest.config.json",
+          "hash": "1852808243276453464"
+        },
+        {
+          "file": "apps/mobile-e2e/project.json",
+          "hash": "16408229278821782618"
+        },
+        {
+          "file": "apps/mobile-e2e/src/app.spec.ts",
+          "hash": "12932349008757794504",
+          "deps": [
+            "npm:detox"
+          ]
+        },
+        {
+          "file": "apps/mobile-e2e/test-setup.ts",
+          "hash": "891269836898640451",
+          "deps": [
+            "npm:detox"
+          ]
+        },
+        {
+          "file": "apps/mobile-e2e/tsconfig.e2e.json",
+          "hash": "11142322477626239235"
+        },
+        {
+          "file": "apps/mobile-e2e/tsconfig.json",
+          "hash": "4500232260948002331"
+        }
+      ],
+      "backend": [
+        {
+          "file": "apps/backend/.eslintrc.json",
+          "hash": "13800677001662881425"
+        },
+        {
+          "file": "apps/backend/jest.config.ts",
+          "hash": "13565990685219350708"
+        },
+        {
+          "file": "apps/backend/project.json",
+          "hash": "9298040780017046109"
+        },
+        {
+          "file": "apps/backend/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/backend/src/main.ts",
+          "hash": "1540572316934295889",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/backend/tsconfig.app.json",
+          "hash": "1558509971940032459"
+        },
+        {
+          "file": "apps/backend/tsconfig.json",
+          "hash": "3490524966360018312"
+        },
+        {
+          "file": "apps/backend/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        }
+      ],
+      "backend-e2e": [
+        {
+          "file": "apps/backend-e2e/.eslintrc.json",
+          "hash": "13800677001662881425"
+        },
+        {
+          "file": "apps/backend-e2e/jest.config.ts",
+          "hash": "10342316975398403646"
+        },
+        {
+          "file": "apps/backend-e2e/project.json",
+          "hash": "11933030040606976923"
+        },
+        {
+          "file": "apps/backend-e2e/src/backend/backend.spec.ts",
+          "hash": "4579662685003779048",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/backend-e2e/src/support/global-setup.ts",
+          "hash": "2568409276037275290"
+        },
+        {
+          "file": "apps/backend-e2e/src/support/global-teardown.ts",
+          "hash": "5275447082211835490"
+        },
+        {
+          "file": "apps/backend-e2e/src/support/test-setup.ts",
+          "hash": "10984585515912236441",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/backend-e2e/tsconfig.json",
+          "hash": "15443990093475294480"
+        },
+        {
+          "file": "apps/backend-e2e/tsconfig.spec.json",
+          "hash": "14954872453723519891"
+        }
+      ]
+    }
+  }
+}
