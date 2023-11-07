@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ku/lb_data-access": ["libs/lb_data-access/src/index.ts"],
+      "@ku/lb_features": ["libs/lb_features/src/index.ts"],
+      "@ku/lb_presentation": ["libs/lb_presentation/src/index.ts"],
+      "@ku/lb_utils": ["libs/lb_utils/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
