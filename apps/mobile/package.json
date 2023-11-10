@@ -9,6 +9,7 @@
     "@react-native/metro-config": "*",
     "@testing-library/jest-native": "*",
     "@testing-library/react-native": "*",
+    "@types/websocket": "^1.0.9",
     "metro-config": "*",
     "react": "*",
     "react-native": "*",
