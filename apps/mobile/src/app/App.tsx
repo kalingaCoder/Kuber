@@ -1,5 +1,7 @@
-/* eslint-disable jsx-a11y/accessible-emoji */
-import React, { useRef, useState } from 'react';
+/* eslint-disable jsx-a11y/accessible-emoji */ 
+import {websocketIoClient} from '@ku/lb_features';
+import { API, IuserCredentials } from '@ku/lb_utils';
+import React, { useRef, useState, useEffect } from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -16,6 +18,42 @@ export const App = () => {
   const [whatsNextYCoord, setWhatsNextYCoord] = useState<number>(0);
   const scrollViewRef = useRef<null | ScrollView>(null);
 
+
+  // useEffect(() => {
+    
+
+  //   const callbacks:any = {
+  //     'socket_open': open,
+  //     'quote': receiveQuote,
+  //     'order': receiveOrders
+  //   }
+
+  //   function receiveQuote(data) {
+  //     console.log("Quote ::", data);
+  //   }
+  
+  //   function receiveOrders(data) {
+  //     console.log("Order ::", data);
+  //   }
+    
+  //   function open(data) {
+  //     let instruments = 'NSE|22#BSE|500400';
+  //     wsClient.subscribe(instruments)
+  //     console.log("subsribing to :: ", instruments);
+  //   }
+
+
+  //   const cred:IuserCredentials = {
+  //     uid:"string",
+  //     susertoken:"string",
+  //     apikey:"string",
+  //     actid:"string"
+  //   }
+  //   const wsClient = new websocketIoClient(API.websocket,cred,callbacks);
+  //   wsClient.conenctTOWs(cred,callbacks);
+    
+  // }, [])
+  
   return (
     <>
       <StatusBar barStyle="dark-content" />

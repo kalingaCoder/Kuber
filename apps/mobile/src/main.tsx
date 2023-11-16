@@ -3,9 +3,9 @@ import App from './app/App';
 
 AppRegistry.registerComponent('Mobile', () => App);
 
-if (window.document) {
+// if (window.document) {
 
-  AppRegistry.runApplication('Mobile', { 
-    rootTag: document.getElementById('root'),
-  });
-}
+//   AppRegistry.runApplication('Mobile', { 
+//     rootTag: document.getElementById('root'),
+//   });
+// }

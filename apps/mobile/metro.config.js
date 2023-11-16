@@ -19,6 +19,7 @@ const customConfig = {
     assetExts: assetExts.filter((ext) => ext !== 'svg'),
     sourceExts: [...sourceExts, 'svg'],
     blockList: exclusionList([/^(?!.*node_modules).*\/dist\/.*/]),
+    assetExts: [...defaultConfig.resolver.assetExts, 'web.ts', 'web.tsx'],
     // unstable_enableSymlinks: true,
     // unstable_enablePackageExports: true,
   },
